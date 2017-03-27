@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:background="@drawable/icon"
+        android:id="@+id/imageView" />
+
+
+    <TextView
+        android:hint="SK"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="40sp"
+        android:layout_marginRight="23dp"
+        android:layout_marginEnd="23dp"
+        android:id="@+id/twoNameCharacter"
+        android:layout_alignTop="@+id/nameView"
+        android:layout_toLeftOf="@+id/nameView"
+        android:layout_toStartOf="@+id/nameView"
+        android:layout_marginTop="17dp" />
+
+    <TextView
+        android:layout_width="280dp"
+        android:layout_height="50dp"
+        android:hint="03459044641"
+        android:textSize="30dp"
+        android:id="@+id/number"
+        android:layout_below="@+id/nameView"
+        android:layout_alignLeft="@+id/nameView"
+        android:layout_alignStart="@+id/nameView" />
+
+    <TextView
+        android:hint="Syed Khubaib"
+        android:layout_width="280dp"
+        android:layout_height="50dp"
+        android:textSize="35sp"
+        android:layout_marginTop="15dp"
+        android:id="@+id/nameView"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@+id/imageView"
+        android:layout_toEndOf="@+id/imageView" />
+
+
+</RelativeLayout>
